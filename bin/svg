@@ -1,4 +1,6 @@
 #!/bin/bash
 svgo \
   --folder \
-  svg/
+  svg/ \
+  --pretty \
+  --disable=collapseGroups

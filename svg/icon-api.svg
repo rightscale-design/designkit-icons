@@ -1,8 +1,10 @@
 <svg class="icon-main icon-api" width="16" height="22" viewBox="0 0 16 22" xmlns="http://www.w3.org/2000/svg">
-  <g class="icon-meta">
-    <title>API</title>
-  </g>
-  <g class="icon-container">
-    <path d="M8 0L0 13.333h8v8L16 8H8V0z" fill="#000000"/>
-  </g>
+    <g class="icon-meta">
+        <title>
+            API
+        </title>
+    </g>
+    <g class="icon-container">
+        <path d="M8 0L0 13.333h8v8L16 8H8V0z"/>
+    </g>
 </svg>

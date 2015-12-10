@@ -40,8 +40,8 @@ myApp.controller('iconsCtrl', function($scope, $routeParams, $location) {
   }, {
     id: 8,
     item: {
-      name: 'Attachment',
-      svg: 'svg/icon-attachment.svg'
+      name: 'Link',
+      svg: 'svg/icon-link.svg'
     }
   }, {
     id: 10,
@@ -68,10 +68,22 @@ myApp.controller('iconsCtrl', function($scope, $routeParams, $location) {
       svg: 'svg/icon-calendar.svg'
     }
   }, {
+    id: 13,
+    item: {
+      name: 'Check',
+      svg: 'svg/icon-check.svg'
+    }
+  }, {
     id: 14,
     item: {
       name: 'Card View',
       svg: 'svg/icon-card-view.svg'
+    }
+  }, {
+    id: 48,
+    item: {
+      name: 'List View',
+      svg: 'svg/icon-list-view.svg'
     }
   }, {
     id: 16,
@@ -150,12 +162,6 @@ myApp.controller('iconsCtrl', function($scope, $routeParams, $location) {
     item: {
       name: 'Key',
       svg: 'svg/icon-key.svg'
-    }
-  }, {
-    id: 48,
-    item: {
-      name: 'List View',
-      svg: 'svg/icon-list-view.svg'
     }
   }, {
     id: 52,
