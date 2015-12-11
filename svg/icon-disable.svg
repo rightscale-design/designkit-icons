@@ -1,0 +1,10 @@
+<svg class="icon-main icon-disable" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+    <g class="icon-meta">
+        <title>
+            Disable
+        </title>
+    </g>
+    <g class="icon-container">
+        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm4.89-11.477a6 6 0 0 1-8.367 8.367l8.368-8.367zM11.478 3.11A5.96 5.96 0 0 0 8 2a6 6 0 0 0-4.89 9.477l8.367-8.368z" fill-rule="evenodd"/>
+    </g>
+</svg>

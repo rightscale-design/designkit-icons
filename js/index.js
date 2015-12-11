@@ -56,6 +56,12 @@ myApp.controller('iconsCtrl', function($scope, $routeParams, $location) {
       svg: 'svg/icon-beta.svg'
     }
   }, {
+    id: 6,
+    item: {
+      name: 'Attachment',
+      svg: 'svg/icon-attachment.svg'
+    }
+  }, {
     id: 2,
     item: {
       name: 'API',

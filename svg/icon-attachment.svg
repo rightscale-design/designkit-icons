@@ -1,0 +1,10 @@
+<svg class="icon-main icon-attachment" width="14" height="20" viewBox="0 0 14 20" xmlns="http://www.w3.org/2000/svg">
+    <g class="icon-meta">
+        <title>
+            Attachment
+        </title>
+    </g>
+    <g class="icon-container">
+        <path d="M10 10.894V13a3 3 0 0 1-6 0V5.5c0-.553.444-1 1-1 .553 0 1 .445 1 1V13a1 1 0 0 0 2 0V5a3 3 0 0 0-6 0v8a5 5 0 0 0 10 0V8.003a1 1 0 0 1 2 0V13a7 7 0 0 1-14 0V5c0-2.76 2.24-5 5-5s5 2.24 5 5v5.894z" fill-rule="evenodd"/>
+    </g>
+</svg>
