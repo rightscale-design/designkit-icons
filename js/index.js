@@ -27,9 +27,33 @@ myApp.controller('iconsCtrl', function($scope, $routeParams, $location) {
   $scope.icons = [{
     id: 1,
     item: {
+      name: 'Cloud',
+      svg: 'svg/icon-cloud.svg'
+    }
+  }, {
+    id: 2,
+    item: {
+      name: 'Book',
+      svg: 'svg/icon-book.svg'
+    }
+  }, {
+    id: 3,
+    item: {
+      name: 'Brush',
+      svg: 'svg/icon-brush.svg'
+    }
+  }, {
+    id: 4,
+    item: {
       name: 'Admin',
       class: '.icon-admin',
       svg: 'svg/icon-admin.svg'
+    }
+  }, {
+    id: 5,
+    item: {
+      name: 'Beta',
+      svg: 'svg/icon-beta.svg'
     }
   }, {
     id: 2,
@@ -47,19 +71,19 @@ myApp.controller('iconsCtrl', function($scope, $routeParams, $location) {
     id: 10,
     item: {
       name: 'Beta',
-      svg: 'svg/icon-beta.svg'
+      svg: 'svg/icon-beta-.svg'
     }
   }, {
     id: 11,
     item: {
       name: 'Book',
-      svg: 'svg/icon-book.svg'
+      svg: 'svg/icon-book-.svg'
     }
   }, {
     id: 12,
     item: {
       name: 'Brush',
-      svg: 'svg/icon-brush.svg'
+      svg: 'svg/icon-brush-.svg'
     }
   }, {
     id: 13,
@@ -184,8 +208,14 @@ myApp.controller('iconsCtrl', function($scope, $routeParams, $location) {
   }, {
     id: 65,
     item: {
-      name: 'Sort User',
+      name: 'User',
       svg: 'svg/icon-user.svg'
+    }
+  }, {
+    id: 66,
+    item: {
+      name: 'Disable',
+      svg: 'svg/icon-disable.svg'
     }
   }];
 
