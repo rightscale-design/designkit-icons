@@ -62,7 +62,7 @@ myApp.controller('iconsCtrl', function($scope, $routeParams, $location) {
       svg: 'svg/icon-attachment.svg'
     }
   }, {
-    id: 2,
+    id: 7,
     item: {
       name: 'API',
       svg: 'svg/icon-api.svg'
@@ -74,154 +74,130 @@ myApp.controller('iconsCtrl', function($scope, $routeParams, $location) {
       svg: 'svg/icon-link.svg'
     }
   }, {
-    id: 10,
-    item: {
-      name: 'Beta',
-      svg: 'svg/icon-beta-.svg'
-    }
-  }, {
-    id: 11,
-    item: {
-      name: 'Book',
-      svg: 'svg/icon-book-.svg'
-    }
-  }, {
-    id: 12,
-    item: {
-      name: 'Brush',
-      svg: 'svg/icon-brush-.svg'
-    }
-  }, {
-    id: 13,
+    id: 9,
     item: {
       name: 'Calendar',
       svg: 'svg/icon-calendar.svg'
     }
   }, {
-    id: 13,
+    id: 10,
     item: {
       name: 'Check',
       svg: 'svg/icon-check.svg'
     }
   }, {
-    id: 14,
+    id: 11,
     item: {
       name: 'Card View',
       svg: 'svg/icon-card-view.svg'
     }
   }, {
-    id: 48,
+    id: 12,
     item: {
       name: 'List View',
       svg: 'svg/icon-list-view.svg'
     }
   }, {
-    id: 16,
+    id: 13,
     item: {
       name: 'Caret Circle',
       svg: 'svg/icon-caret-circle.svg'
     }
   }, {
-    id: 17,
-    item: {
-      name: 'Caret',
-      svg: 'svg/icon-caret.svg'
-    }
-  }, {
-    id: 19,
+    id: 14,
     item: {
       name: 'Checkmark Circled',
       svg: 'svg/icon-checkmark-circled.svg'
     }
   }, {
-    id: 21,
+    id: 15,
     item: {
       name: 'Close',
       svg: 'svg/icon-close.svg'
     }
   }, {
-    id: 24,
+    id: 16,
     item: {
       name: 'Cog',
       svg: 'svg/icon-cog.svg'
     }
   }, {
-    id: 27,
-    item: {
-      name: 'Cloud',
-      svg: 'svg/icon-cloud-2.svg'
-    }
-  }, {
-    id: 31,
+    id: 17,
     item: {
       name: 'Edit',
       svg: 'svg/icon-edit.svg'
     }
   }, {
-    id: 32,
+    id: 18,
     item: {
       name: 'Email',
       svg: 'svg/icon-email.svg'
     }
   }, {
-    id: 34,
+    id: 19,
     item: {
       name: 'Expand',
       svg: 'svg/icon-expand.svg'
     }
   }, {
-    id: 38,
+    id: 20,
     item: {
       name: 'External',
       svg: 'svg/icon-external.svg'
     }
   }, {
-    id: 41,
+    id: 21,
     item: {
       name: 'Folded Map',
       svg: 'svg/icon-folded-map.svg'
     }
   }, {
-    id: 41,
+    id: 22,
     item: {
       name: 'Folder',
       svg: 'svg/icon-folder.svg'
     }
   }, {
-    id: 46,
+    id: 23,
     item: {
       name: 'Key',
       svg: 'svg/icon-key.svg'
     }
   }, {
-    id: 52,
+    id: 24,
     item: {
       name: 'Phone',
       svg: 'svg/icon-phone.svg'
     }
   }, {
-    id: 61,
+    id: 25,
     item: {
       name: 'Shield',
       svg: 'svg/icon-shield.svg'
     }
   }, {
-    id: 65,
+    id: 26,
     item: {
-      name: 'Sort Trash',
+      name: 'Trash',
       svg: 'svg/icon-trash.svg'
     }
   }, {
-    id: 65,
+    id: 27,
     item: {
       name: 'User',
       svg: 'svg/icon-user.svg'
     }
   }, {
-    id: 66,
+    id: 28,
     item: {
       name: 'Disable',
       svg: 'svg/icon-disable.svg'
+    }
+  }, {
+    id: 29,
+    item: {
+      name: 'Caret',
+      svg: 'svg/icon-caret.svg'
     }
   }];
 
