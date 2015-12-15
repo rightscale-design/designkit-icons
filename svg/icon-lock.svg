@@ -1,0 +1,10 @@
+<svg class="icon-main icon-lock" width="12" height="15" viewBox="0 0 12 15" xmlns="http://www.w3.org/2000/svg">
+    <g class="icon-meta">
+        <title>
+            Lock
+        </title>
+    </g>
+    <g class="icon-container">
+        <path d="M12 14c0 .5-.5 1-1 1H1c-.5 0-1-.5-1-1V7c0-.5.5-1 1-1h1V4c0-2.2 1.8-4 4-4s4 1.8 4 4v2h1c.5 0 1 .5 1 1v7zM0 8h12v1H0V8zm8-2V4.095C8 2.933 7.2 2 6.005 2 4.8 2 4.01 2.933 4.01 4.095V6H8z" fill-rule="evenodd"/>
+    </g>
+</svg>

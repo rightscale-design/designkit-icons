@@ -120,7 +120,7 @@
         <h1>{{ selectedIcon.item.name }}</h1>
         <div>
           <p>Class: {{ selectedIcon.item.class }}</p>
-          <img src="{{ selectedIcon.item.svg }}"/>
+          <img ng-src="{{ selectedIcon.item.svg }}"/>
         </div>
       </div>
     </script>
@@ -129,7 +129,7 @@
         <ul class="icon-list">
           <li ng-repeat="icon in icons | filter: transform as results">
             <a ng-href="#/{{ icon.item.name }}">
-              <img src="{{ icon.item.svg }}"/>
+              <img ng-src="{{ icon.item.svg }}"/>
             </a>
           </li>
         </ul>

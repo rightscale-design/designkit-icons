@@ -199,6 +199,12 @@ myApp.controller('iconsCtrl', function($scope, $routeParams, $location) {
       name: 'Caret',
       svg: 'svg/icon-caret.svg'
     }
+  }, {
+    id: 30,
+    item: {
+      name: 'Lock',
+      svg: 'svg/icon-lock.svg'
+    }
   }];
 
   $scope.selectedIcon = _.find($scope.icons, {
