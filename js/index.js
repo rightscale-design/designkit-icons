@@ -196,14 +196,20 @@ myApp.controller('iconsCtrl', function($scope, $routeParams, $location) {
   }, {
     id: 29,
     item: {
-      name: 'Caret',
-      svg: 'svg/icon-caret.svg'
+      name: 'Lock',
+      svg: 'svg/icon-lock.svg'
     }
   }, {
     id: 30,
     item: {
-      name: 'Lock',
-      svg: 'svg/icon-lock.svg'
+      name: 'Search',
+      svg: 'svg/icon-search.svg'
+    }
+  }, {
+    id: 31,
+    item: {
+      name: 'Caret',
+      svg: 'svg/icon-caret.svg'
     }
   }];
 
