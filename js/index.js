@@ -211,6 +211,48 @@ myApp.controller('iconsCtrl', function($scope, $routeParams, $location) {
       name: 'Caret',
       svg: 'svg/icon-caret.svg'
     }
+  }, {
+    id: 32,
+    item: {
+      name: 'More',
+      svg: 'svg/icon-more-vertical.svg'
+    }
+  }, {
+    id: 33,
+    item: {
+      name: 'More',
+      svg: 'svg/icon-more-horizontal.svg'
+    }
+  }, {
+    id: 34,
+    item: {
+      name: 'Code Download',
+      svg: 'svg/icon-code-download.svg'
+    }
+  }, {
+    id: 35,
+    item: {
+      name: 'Tooltip',
+      svg: 'svg/icon-tooltip.svg'
+    }
+  }, {
+    id: 36,
+    item: {
+      name: 'Alert',
+      svg: 'svg/icon-alert.svg'
+    }
+  }, {
+    id: 37,
+    item: {
+      name: 'Bell',
+      svg: 'svg/icon-bell.svg'
+    }
+  }, {
+    id: 38,
+    item: {
+      name: 'Bell Off',
+      svg: 'svg/icon-bell-off.svg'
+    }
   }];
 
   $scope.selectedIcon = _.find($scope.icons, {
