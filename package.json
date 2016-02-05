@@ -1,6 +1,6 @@
 {
   "name": "designkit-icons",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Sass module for icon assets used at RightScale.",
   "repository": {
     "type": "git",
