@@ -1,0 +1,10 @@
+<svg class="icon-main icon-alert" width="16" height="14" viewBox="0 0 16 14" xmlns="http://www.w3.org/2000/svg">
+    <g class="icon-meta">
+        <title>
+            Alert
+        </title>
+    </g>
+    <g class="icon-container">
+        <path d="M0 14h16L8 0 0 14zm9-2H7v-2h2v2zm0-3H7V5h2v4z" fill-rule="evenodd"/>
+    </g>
+</svg>

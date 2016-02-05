@@ -1,0 +1,14 @@
+<svg class="icon-main icon-bell" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+    <g class="icon-meta">
+        <title>
+            Bell
+        </title>
+    </g>
+    <g class="icon-container" fill="none" fill-rule="evenodd">
+        <g fill="#000">
+            <g>
+                <path d="M9.004.988c0-.02.004-.042.004-.067C9.008.41 8.554 0 8 0s-.992.408-.992.92c0 .026 0 .047.005.068-2.05.312-4.25 1.7-4.25 5.766 0 4.742-1.18 5.25-2.763 6.246h16c-1.575-1-2.762-1.512-2.762-6.254 0-4.067-2.188-5.45-4.234-5.76zM8 16c1.555 0 2.832-.926 3-2H5c.162 1.074 1.445 2 3 2z"/>
+            </g>
+        </g>
+    </g>
+</svg>
