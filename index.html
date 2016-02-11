@@ -108,8 +108,20 @@
       height: 56px;
       text-align: center;
       line-height: 0;
-      color: #333;
+      color: #0A83F6;
       outline: none;
+    }
+    .icon-main {
+      display: inline-block;
+      fill: currentColor;
+      height: 16px;
+      width: 16px;
+      vertical-align: middle;
+      position: relative;
+    }
+    .icon-inherit {
+      height: inherit;
+      width: inherit;
     }
   </style>
 </head>
@@ -120,7 +132,11 @@
         <h1>{{ selectedIcon.item.name }}</h1>
         <div>
           <p>Class: {{ selectedIcon.item.class }}</p>
-          <img ng-src="{{ selectedIcon.item.svg }}"/>
+          <div>
+            <svg class="icon-main icon-inherit">
+              <use ng-attr-xlink:href="{{selectedIcon.item.svg}}" xlink:href=""/>
+            </svg>
+          </div>
         </div>
       </div>
     </script>
@@ -129,7 +145,9 @@
         <ul class="icon-list">
           <li ng-repeat="icon in icons | filter: transform as results">
             <a ng-href="#/{{ icon.item.name }}">
-              <img ng-src="{{ icon.item.svg }}"/>
+              <svg class="icon-main">
+                <use ng-attr-xlink:href="{{icon.item.svg}}" xlink:href=""/>
+              </svg>
             </a>
           </li>
         </ul>
@@ -154,6 +172,8 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/svg4everybody/2.0.3/svg4everybody.js'></script>
+  <script>svg4everybody(); // run it now or whenever you are ready</script>
   <script src="js/index.js"></script>
 </body>
 </html>
