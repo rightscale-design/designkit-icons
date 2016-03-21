@@ -1,6 +1,6 @@
 {
   "name": "designkit-icons",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Sass module for icon assets used at RightScale.",
   "repository": {
     "type": "git",
@@ -10,10 +10,16 @@
     "name": "Jason Melgoza",
     "email": "jason@rightscale.com"
   },
+  "files": [
+    "src",
+    "css",
+    "svg"
+  ],
+  "keywords": [
+    "css",
+    "Sass"
+  ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rightscale-design/designkit-icons/issues"
-  },
   "homepage": "https://github.com/rightscale-design/designkit-icons#readme",
   "devDependencies": {
     "bourbon": "^4.2.6",

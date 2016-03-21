@@ -2,21 +2,51 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Designkit Icons</title>
+  <title>Designkit-Icons</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
   <link rel="stylesheet" href="designkit-icons.css">
   <style>
-    * {
+    *,
+    *:before,
+    *:after {
+      -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
     }
-
     body {
-      font: normal normal 16px/1.6 "Helvetica Neue", helvetica, arial, sans-serif;
-      margin: 0;
-      background-color: #fafafa;
-      color: #444;
-      height: 100%;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      letter-spacing: 0;
+      font-weight: 400;
+      font-style: normal;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: #111;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    a {
+      text-decoration: none;
+      transition: color .15s ease-in;
+      color: #0A83F6;
+    }
+
+    a:link, a:visited {
+      transition: color .15s ease-in;
+    }
+
+    a:hover {
+      transition: color .15s ease-in;
+      color: #0769c6;
+    }
+
+    a:active {
+      transition: color .15s ease-in;
+    }
+
+    a:focus {
+      transition: color .15s ease-in;
     }
 
     .wrapper {
@@ -31,14 +61,18 @@
       margin-bottom: 40px;
       position: relative;
     }
+    header h1 a {
+      color: #111;
+    }
+
     header .search-trigger {
-      color: blue;
+      color: #111;
       position: absolute;
       top: calc(50% - 12px);
       right: calc(50% - 464px);
     }
     header .search-reset {
-      color: blue;
+      color: #111;
       position: absolute;
       top: calc(50% - 12px);
       right: calc(50% - 400px);
@@ -155,7 +189,7 @@
     </script>
     <header ng-class="{'is-active' : search}">
       <div class="wrapper">
-        <a href="#/">Icons</a>
+        <h1><a href="#/">Designkit Icons</a></h1>
         <div class="search">
           <input type="text" ng-model="transform" placeholder="Search" />
           <div class="search-reset" ng-click="transform = ''; search = false">Reset</div>
