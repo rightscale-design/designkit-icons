@@ -47,7 +47,7 @@ myApp.controller('iconsCtrl', function($scope, $routeParams, $location) {
     item: {
       name: 'Admin',
       class: '.icon-admin',
-      svg: 'svg/icon-admin.svg#icon-admin'
+      svg: 'svg/icon-admin.svg'
     }
   }, {
     id: 5,

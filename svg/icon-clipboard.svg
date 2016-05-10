@@ -1,12 +1,1 @@
-<svg width="16" height="14" xmlns="http://www.w3.org/2000/svg">
-    <symbol id="icon-clipboard" viewBox="0 0 14 16">
-        <g class="icon-meta">
-            <title>
-                Clipboard
-            </title>
-        </g>
-        <g class="icon-container">
-            <path d="M9.5 2c0-1-1-2-2.5-2S4.5 1 4.5 2H1c-.5 0-1 .5-1 1v12c0 .5.5 1 1 1h12c.5 0 1-.5 1-1V3c0-.5-.5-1-1-1H9.5zM7 1.556c.467 0 .778.31.778.777s-.31.778-.778.778c-.467 0-.778-.31-.778-.777 0-.466.31-.777.778-.777zM3 11h4v1H3v-1zm0-3h7v1H3V8zm-1 6V4h2v2h6V4h2v10H2z" fill-rule="evenodd"/>
-        </g>
-    </symbol>
-</svg>
+<svg aria-label="Clipboard" class="icon-clipboard" height="14" role="img" version="1.1" viewBox="0 0 14 16" width="16"><path d="M9.5 2c0-1-1-2-2.5-2S4.5 1 4.5 2H1c-.5 0-1 .5-1 1v12c0 .5.5 1 1 1h12c.5 0 1-.5 1-1V3c0-.5-.5-1-1-1H9.5zM7 1.556c.467 0 .778.31.778.777s-.31.778-.778.778c-.467 0-.778-.31-.778-.777 0-.466.31-.777.778-.777zM3 11h4v1H3v-1zm0-3h7v1H3V8zm-1 6V4h2v2h6V4h2v10H2z" fill-rule="evenodd"></path></svg>

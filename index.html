@@ -146,6 +146,9 @@
       color: #0A83F6;
       outline: none;
     }
+    .icon-list a svg path {
+      fill: currentColor;
+    }
     .icon-main {
       display: inline-block;
       fill: currentColor;
@@ -168,9 +171,7 @@
         <div>
           <p>Class: {{ selectedIcon.item.class }}</p>
           <div>
-            <svg class="icon-main icon-inherit">
-              <use ng-attr-xlink:href="{{selectedIcon.item.svg}}" xlink:href=""/>
-            </svg>
+            <ng-include src="selectedIcon.item.svg"></ng-include>
           </div>
         </div>
       </div>
@@ -180,9 +181,7 @@
         <ul class="icon-list">
           <li ng-repeat="icon in icons | filter: transform as results">
             <a ng-href="#/{{ icon.item.name }}">
-              <svg class="icon-main">
-                <use ng-attr-xlink:href="{{icon.item.svg}}" xlink:href=""/>
-              </svg>
+              <ng-include src="icon.item.svg"></ng-include>
             </a>
           </li>
         </ul>

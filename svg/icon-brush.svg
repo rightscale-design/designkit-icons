@@ -1,12 +1,1 @@
-<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-    <symbol id="icon-brush" viewBox="0 0 16 16">
-        <g class="icon-meta">
-            <title>
-                Brush
-            </title>
-        </g>
-        <g class="icon-container">
-            <path d="M15.414.585a2 2 0 0 0-2.828 0l-5.7 5.7a4.66 4.66 0 0 1 2.827 2.83l5.7-5.7a2 2 0 0 0 0-2.83zm-7.416 10.08a2.667 2.667 0 1 0-5.334 0l.002.003A5.332 5.332 0 0 1 0 15.283l.01.01A5.334 5.334 0 0 0 8 10.666h-.002z"/>
-        </g>
-    </symbol>
-</svg>
+<svg aria-label="Brush" class="icon-brush" height="16" role="img" version="1.1" viewBox="0 0 16 16" width="16"><path d="M15.414.585a2 2 0 0 0-2.828 0l-5.7 5.7a4.66 4.66 0 0 1 2.827 2.83l5.7-5.7a2 2 0 0 0 0-2.83zm-7.416 10.08a2.667 2.667 0 1 0-5.334 0l.002.003A5.332 5.332 0 0 1 0 15.283l.01.01A5.334 5.334 0 0 0 8 10.666h-.002z"></path></svg>
