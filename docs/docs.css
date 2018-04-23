@@ -1,3 +1,17 @@
-body {
-  background: #941c1c;
+.dk-icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.dk-icon.dk-icon-account {
+  width: 13px;
+  height: 13px;
+  background-image: url("data:image/svg+xml,%3Csvg width='13' height='11' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.064 2V1a1 1 0 0 1 1-1H8a1 1 0 0 1 1 1v1h3a1 1 0 0 1 1 1v2H0V3a1 1 0 0 1 1-1h3.064zM8 2V1H4.996v1H8zM4 6v2h5V6h4v4a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V6h4zm1 0h3v1H5V6z' fill='%23000000' fill-rule='nonzero'/%3E%3C/svg%3E");
+}
+
+.dk-icon.dk-icon-account-white {
+  width: 13px;
+  height: 13px;
+  background-image: url("data:image/svg+xml,%3Csvg width='13' height='11' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.064 2V1a1 1 0 0 1 1-1H8a1 1 0 0 1 1 1v1h3a1 1 0 0 1 1 1v2H0V3a1 1 0 0 1 1-1h3.064zM8 2V1H4.996v1H8zM4 6v2h5V6h4v4a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V6h4zm1 0h3v1H5V6z' fill='%23ffffff' fill-rule='nonzero'/%3E%3C/svg%3E");
 }
